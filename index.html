@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Web App</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Web App!</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About This App</h2>
+    <p>This is a simple web application hosted on GitHub Pages. It demonstrates basic HTML, CSS, and JavaScript working together to create an interactive experience.</p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Responsive design</li>
+      <li>Interactive button with message display</li>
+      <li>Clean and modern layout</li>
+    </ul>
+    <button id="helloBtn">Click me!</button>
+    <p id="message"></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="messageInput">Message:</label><br />
+      <textarea id="messageInput" name="messageInput" rows="4" required></textarea><br />
+      <button type="submit">Send</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kavindu Dhananjaya</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
